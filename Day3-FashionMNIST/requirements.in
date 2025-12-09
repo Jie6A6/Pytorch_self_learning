@@ -1,0 +1,12 @@
+numpy
+scipy
+matplotlib
+torch
+torchvision
+PyQt5
+pandas
+jupyterlab
+jupyter
+opencv-python
+tensorboard
+Pillow
