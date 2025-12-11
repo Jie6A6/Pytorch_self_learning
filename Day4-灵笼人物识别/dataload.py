@@ -46,7 +46,7 @@ train_dataset, val_dataset = random_split(
     generator=torch.Generator().manual_seed(0)  # # 专属随机生成器
 )
 # ============ 7. 创建数据加载器 ============
-batch_size = 64
+batch_size = 16
 train_loader = torch.utils.data.DataLoader(
     train_dataset,
     batch_size=batch_size,

@@ -15,8 +15,8 @@ plt.rcParams['axes.unicode_minus'] = False    # 解决负号显示为方块的�
 
 # ============ 1. 参数设置 ============
 vgg19 = VGG19()
-num_epoch = 2
-learning_rate = 0.01
+num_epoch = 20
+learning_rate = 0.001
 save_path = r"linglong_cnn.pth"
 data_save_path = r"result_save"
 
@@ -54,7 +54,7 @@ for epoch in range(num_epoch):
         total += labels.size(0)
         correct += (predicted ==labels).sum().item()
 
-        if (batch_idx + 1) % 10 == 0:
+        if (batch_idx + 1) % 2 == 0:
             print("Epoch:{}, Batch:{}/{}, Loss:{}".format(epoch + 1, batch_idx + 1, len(train_loader), loss.item()))
 
     # ============ 计算本轮的平均损失和准确率 ============
