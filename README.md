@@ -4,6 +4,7 @@
     Day2-彩色图片识别:CNN十分类模型(官方数据集)
     Day3-FashionMNIST:CNN十分类模型(官方数据集)
     Day4-灵笼人物识别:CNN六分类模型(自定义数据集)
+    Day5-股票预测: RNN预测模型(自定义数据集)
 
 This is a project for personal learning of PyTorch.
 
@@ -11,3 +12,4 @@ This is a project for personal learning of PyTorch.
     Day 2 - Color image recognition: CNN ten-class classification model (official dataset)
     Day 3 - FashionMNIST: CNN ten-class classification model (official dataset)
     Day 4 - Ling Cage character recognition: CNN six-class classification model (custom dataset)
+    Day 5 - Stock Prediction: RNN Prediction Model (Custom Dataset)
